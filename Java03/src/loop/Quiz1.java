@@ -8,10 +8,10 @@ public class Quiz1 {
 		// 1.1~10 중 짝수만 출력하기 
 		
 		for(int i=1; i<=10; i++) {
-			if(i%2 == 1) {
-				continue;
+			if(i%2 == 0) {
+				System.out.println(i);
 			}
-			System.out.println(i+" ");
+	
 		}
 		
 		// 2. 정수형태 비밀번호 맞추기 (기회는 5번, 맞추면 맞췄다하고 종료, 기회를 모두 사용하면 접속불가)
